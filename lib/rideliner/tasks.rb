@@ -10,9 +10,7 @@ require 'rubygems'
 require 'bundler/gem_tasks'
 
 require 'rideliner/task/test'
-require 'rideliner/task/yard'
 require 'rideliner/task/rubocop'
-require 'rideliner/task/ghpages_deploy_yard'
 
 task default: %i(rubocop test)
 task ci: 'test:coverage'

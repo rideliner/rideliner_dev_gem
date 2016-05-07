@@ -31,7 +31,4 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'minitest'
   spec.add_dependency 'simplecov'
   spec.add_dependency 'codecov'
-  spec.add_dependency 'kramdown'
-  spec.add_dependency 'yard'
-  spec.add_dependency 'ghpages_deploy'
 end
