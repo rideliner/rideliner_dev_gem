@@ -8,8 +8,3 @@
 source 'https://rubygems.org'
 
 gemspec
-
-group :development do
-  gem 'yard', require: false,
-              git: 'https://github.com/lsegal/yard.git'
-end
