@@ -8,6 +8,7 @@
 require 'rubocop/rake_task'
 
 RuboCop::RakeTask.new(:rubocop) do |t|
+  t.options << '-D'
   t.fail_on_error = false
 end
 
