@@ -5,5 +5,5 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 module Rideliner
-  VERSION = '0.3.4'.freeze
+  VERSION = '0.3.5'.freeze
 end
