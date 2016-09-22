@@ -8,6 +8,10 @@ AllCops:
     - '**/*.lock'
     - 'vendor/**/*'
 
+############################################
+# Enable cops that are disabled by default #
+############################################
+
 Style/AutoResourceCleanup:
   Enabled: true
 
@@ -17,9 +21,6 @@ Style/CollectionMethods:
 Style/Copyright:
   Enabled: true
   Notice: '^# Copyright \(c\) 2\d{3} .+$'
-
-Style/Documentation:
-  Enabled: false
 
 Style/Encoding:
   Enabled: true
@@ -36,10 +37,10 @@ Style/FirstMethodArgumentLineBreak:
 Style/FirstMethodParameterLineBreak:
   Enabled: true
 
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
 Style/ImplicitRuntimeError:
+  Enabled: true
+
+Style/InlineComment:
   Enabled: true
 
 Style/MethodCalledOnDoEndBlock:
@@ -62,3 +63,24 @@ Style/StringMethods:
 
 Style/SymbolArray:
   Enabled: true
+
+############################################
+# Disable cops that are enabled by default #
+############################################
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+############################################
+# Ensure cops that are disabled by default #
+############################################
+
+Style/DocumentationMethod:
+  Enabled: false
+
+Style/MissingElse:
+  Enabled: false
+
