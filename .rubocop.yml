@@ -74,6 +74,9 @@ Style/Documentation:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+Style/SafeNavigation:
+  Enabled: false
+
 ############################################
 # Ensure cops that are disabled by default #
 ############################################
